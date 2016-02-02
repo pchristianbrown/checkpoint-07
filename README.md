@@ -30,7 +30,7 @@ How is the concept of OAuth related to a valet key?
 // Your answer...
 ```
 
-## Question 8
+### Question 8
 
 Write one Express route for each of four HTTP methods.
 
@@ -48,7 +48,7 @@ var app = express();
 // Your answer...
 ```
 
-## Question 14
+### Question 14
 
 Convert the following ActiveRecord sequence to Mongoose:
 
