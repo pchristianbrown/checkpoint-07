@@ -1,5 +1,13 @@
 # Week 10
 
+### Question #3
+
+Describe the differences between a SQL and NoSQL DB, and when you might use each.
+
+```text
+Your answer...
+```
+
 ### Question #4
 
 What's wrong with this mongoose code and how might we fix it?
