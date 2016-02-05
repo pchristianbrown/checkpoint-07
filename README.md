@@ -1,14 +1,17 @@
 # Week 10
 
-### Question #3
+## Mongoose
+
+### Question #1
 
 Describe the differences between a SQL and NoSQL DB, and when you might use each.
 
 ```text
 Your answer...
+
 ```
 
-### Question #4
+### Question #2
 
 What's wrong with this mongoose code and how might we fix it?
 (Hint: Assuming there is a document with a name of "Bob", why is results not an author model on the second line?)
@@ -22,15 +25,50 @@ console.log(results);
 // Your answer...
 ```
 
-### Question #7
+### Question #3
 
-How is the concept of OAuth related to a valet key?
+Convert the following ActiveRecord sequence to Mongoose:
+
+```rb
+@andy = Instructor.find_by(name: "Andy")
+@andy.wishlist_items.create(description: "Resin Laying Deer Figurine, Gold")
+```
 
 ```js
 // Your answer...
 ```
 
-### Question 8
+### Question #4
+
+Convert the following create method in Mongoose to ActiveRecord.
+
+```js
+  var authors = {
+  create: function(req, res){
+  var author = new AuthorModel({name: req.body.name})
+  author.save(function(err){
+    if (!err){
+      res.redirect("authors")
+    }
+  })
+  }  
+}
+```
+
+```rb
+
+```
+## Express
+
+### Question #5
+
+How does module.exports help us with separation of concerns?
+
+```text
+
+```
+
+### Question #6
 
 Write one Express route for each of four HTTP methods.
 
@@ -47,16 +85,18 @@ var app = express();
 ```js
 // Your answer...
 ```
+### Question #7
 
-### Question 14
+Describe the differences between Express and Rails as backend frameworks.
 
-Convert the following ActiveRecord sequence to Mongoose:
+```text
 
-```rb
-@andy = Instructor.find_by(name: "Andy")
-@andy.wishlist_items.create(description: "Resin Laying Deer Figurine, Gold")
 ```
 
+### Question #8
+
+What is the importance of using body-parser in our express application for post requests? Then, Write an example of an Express app POST request.
+
 ```js
-// Your answer...
+
 ```
