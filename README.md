@@ -70,7 +70,7 @@ How does module.exports help us with separation of concerns?
 
 ### Question #6
 
-Write one Express route for each of four HTTP methods.
+Write one Express route for each of the four HTTP methods.
 
 Then, make each route respond with a one-word string containing the RESTful action that would most likely be associated with this route.
 
@@ -95,7 +95,7 @@ Describe the differences between Express and Rails as backend frameworks.
 
 ### Question #8
 
-What is the importance of using body-parser in our express application for post requests? Then, Write an example of an Express app POST request.
+What is the importance of using body-parser in our express application for post requests? Then, please provide an example of an Express App POST request: 
 
 ```js
 
