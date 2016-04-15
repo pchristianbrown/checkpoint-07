@@ -95,7 +95,7 @@ Describe the differences between Express and Rails as backend frameworks.
 
 ### Question #8
 
-What is the importance of using body-parser in our express application for post requests? Then, please provide an example of an Express App POST request: 
+What is the importance of using body-parser in our express application for post requests? 
 
 ```js
 
