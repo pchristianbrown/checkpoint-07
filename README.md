@@ -43,16 +43,12 @@ Convert the following ActiveRecord sequence to Mongoose:
 Convert the following create method in Mongoose to ActiveRecord.
 
 ```js
-  var authors = {
-  create: function(req, res){
-  var author = new AuthorModel({name: req.body.name})
-  author.save(function(err){
-    if (!err){
-      res.redirect("authors")
-    }
-  })
-  }  
-}
+var author = new Author({name: req.body.name})
+author.save(function(err){
+  if (!err){
+    res.redirect("authors")
+  }
+})
 ```
 
 ```rb
@@ -62,7 +58,7 @@ Convert the following create method in Mongoose to ActiveRecord.
 
 ### Question #5
 
-How does module.exports help us with separation of concerns?
+What is module.exports and why do we use it?
 
 ```text
 
@@ -82,9 +78,6 @@ var app = express();
 
 ```
 
-```js
-// Your answer...
-```
 ### Question #7
 
 Describe the differences between Express and Rails as backend frameworks.
@@ -95,8 +88,14 @@ Describe the differences between Express and Rails as backend frameworks.
 
 ### Question #8
 
-What is the importance of using body-parser in our express application for post requests? 
+What do the following lines of code do?
 
 ```js
+var bodyParser = require("body-parser")
+app.use(bodyParser.json())
+app.use(bodyParser.urlencoded({extended: true}))
+```
 
+```text
+Your answer here
 ```
