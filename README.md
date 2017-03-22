@@ -12,7 +12,7 @@ Your answer...
 
 ### Question #2
 
-What's wrong with this mongoose code and how might we fix it?
+What's wrong with this Mongoose code and how might we fix it?
 
 ```js
 var results = AuthorModel.find({name: "Bob"});
