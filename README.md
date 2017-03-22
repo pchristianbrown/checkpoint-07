@@ -27,11 +27,11 @@ console.log(results);
 
 ### Question #3
 
-Convert the following ActiveRecord sequence to Mongoose:
+Convert the Ruby and ActiveRecord code below into Javascript and Mongoose code:
 
 ```rb
 @andy = Instructor.find_by(name: "Andy")
-@andy.wishlist_items.create(description: "Resin Laying Deer Figurine, Gold")
+@andy.wishlist_items.create(description: "Resin Laying Deer Figurine Comma, Gold")
 ```
 
 ```js
