@@ -4,22 +4,22 @@
 
 ### Question #1
 
-Describe the differences between a SQL and NoSQL DB, and when you might use each.
+Describe the differences between a SQL and NoSQL database, and when you might use each.
 
 ```text
 Your answer...
-
 ```
 
 ### Question #2
 
-What's wrong with this mongoose code and how might we fix it?
-(Hint: Assuming there is a document with a name of "Bob", why is results not an author model on the second line?)
+What's wrong with this Mongoose code and how might we fix it?
 
 ```js
 var results = AuthorModel.find({name: "Bob"});
 console.log(results);
 ```
+
+> Hint: Assuming there is a document with a name of "Bob", why does `results` not contain an author model on the second line?
 
 ```js
 // Your answer...
@@ -27,7 +27,7 @@ console.log(results);
 
 ### Question #3
 
-Convert the following ActiveRecord sequence to Mongoose:
+Convert the Ruby and ActiveRecord code below into Javascript and Mongoose code:
 
 ```rb
 @andy = Instructor.find_by(name: "Andy")
@@ -52,8 +52,9 @@ author.save(function(err){
 ```
 
 ```rb
-
+# Your answer...
 ```
+
 ## Express
 
 ### Question #5
@@ -61,7 +62,7 @@ author.save(function(err){
 What is module.exports and why do we use it?
 
 ```text
-
+Your answer...
 ```
 
 ### Question #6
@@ -83,7 +84,7 @@ var app = express();
 Describe the differences between Express and Rails as backend frameworks.
 
 ```text
-
+Your answer...
 ```
 
 ### Question #8
@@ -97,9 +98,9 @@ app.use(bodyParser.urlencoded({extended: true}))
 ```
 
 ```text
-Your answer here
+Your answer...
 ```
 
-### If you finish early...
+### If You Finish Early...
 
 Take a look at these [front end developer interview questions](https://github.com/h5bp/Front-end-Developer-Interview-Questions/blob/master/README.md)
