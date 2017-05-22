@@ -7,7 +7,7 @@
 Describe the differences between a SQL and NoSQL database, and when you might use each.
 
 ```text
-Your answer...
+SQL is a static relational database that uses predetermined schemas/tables to organize the information while NoSQL is a dynamic database that uses documents to organize information using key-value pairs to sort the information. SQL is used for more complex and scalable applications whereas NoSQL can be used in more "On the fly" situations.
 ```
 
 ### Question #2
