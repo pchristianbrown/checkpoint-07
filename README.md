@@ -22,8 +22,10 @@ console.log(results);
 > Hint: Assuming there is a document with a name of "Bob", why does `results` not contain an author model on the second line?
 
 ```js
-****var mongoose = require('mongoose')
-****mongoose.connect('mongodb:localhost/AuthorModel')
+var AuthorModel = new Schema({
+  name: String,
+});
+var Author = mongoose.model("Author", AuthorModel);
 ```
 
 ### Question #3
@@ -36,8 +38,8 @@ Convert the Ruby and ActiveRecord code below into Javascript and Mongoose code:
 ```
 
 ```js
-var Instructor = mongoose.Instructor;
-var wishlist_items =
+var instructor = new Instructor ({name:'Andy'});
+var wishlist_items = new Wishlist_items ({ description:'Resin Laying Deer Figurine', color:'Gold'});
 ```
 
 ### Question #4
