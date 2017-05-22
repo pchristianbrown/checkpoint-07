@@ -15,6 +15,8 @@ SQL is a static relational database that uses predetermined schemas/tables to or
 What's wrong with this Mongoose code and how might we fix it?
 
 ```js
+var mongoose = require('mongoose')
+mongoose.connect('mongodb:localhost/AuthorModel')
 var results = AuthorModel.find({name: "Bob"});
 console.log(results);
 ```
