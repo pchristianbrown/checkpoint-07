@@ -15,8 +15,6 @@ SQL is a static relational database that uses predetermined schemas/tables to or
 What's wrong with this Mongoose code and how might we fix it?
 
 ```js
-var mongoose = require('mongoose')
-mongoose.connect('mongodb:localhost/AuthorModel')
 var results = AuthorModel.find({name: "Bob"});
 console.log(results);
 ```
@@ -24,7 +22,8 @@ console.log(results);
 > Hint: Assuming there is a document with a name of "Bob", why does `results` not contain an author model on the second line?
 
 ```js
-// Your answer...
+****var mongoose = require('mongoose')
+****mongoose.connect('mongodb:localhost/AuthorModel')
 ```
 
 ### Question #3
@@ -37,7 +36,8 @@ Convert the Ruby and ActiveRecord code below into Javascript and Mongoose code:
 ```
 
 ```js
-// Your answer...
+var Instructor = mongoose.Instructor;
+var wishlist_items =
 ```
 
 ### Question #4
@@ -86,7 +86,7 @@ var app = express();
 Describe the differences between Express and Rails as backend frameworks.
 
 ```text
-Your answer...
+Express is used as a Javascript framework whereas Rails is used as a Ruby backend framework.
 ```
 
 ### Question #8
@@ -100,7 +100,7 @@ app.use(bodyParser.urlencoded({extended: true}))
 ```
 
 ```text
-Your answer...
+Line 97 references the use of the code 'body-parser'. Line 98 returns the 'body-parser' back in a json format. Line 99 allow the code to be viewed in html.
 ```
 
 ### If You Finish Early...
